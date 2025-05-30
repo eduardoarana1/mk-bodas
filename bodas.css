@@ -1,0 +1,494 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    background-color: grey;
+}
+
+.inicio {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+             
+}
+
+.navbar-nav li {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar-nav li:hover ul {
+    display: block;
+}
+
+.navbar-nav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.navbar-nav ul li a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar-nav ul li a:hover {
+    background-color: #ddd;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.inicio-texto {
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.texto-principal {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.texto-principal h2 {
+    font-size: 90px;
+}
+
+.texto-principal p {
+    font-size: 30px;
+}
+
+.container-bodas {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;             
+}
+
+
+
+.gallery-content {
+    width: 100%;    
+    margin: 0;
+    display: flex;
+}
+
+.gallery-item {
+    padding: 1em;    
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/*
+.gallery-content img {
+    
+    width: 50%;
+    height: auto;
+    margin: 5px;
+    object-fit: cover;
+} */
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.container-bodas .popup-image {
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(0, 0, 0, .9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.container-bodas .popup-image img {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    max-width: 860px;
+    max-height: 620px;
+    object-fit: cover;
+}
+
+.container-bodas .popup-image span {
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+} 
+
+
+.texto-bodas-1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-top: 30px;   
+    }
+
+    .contactar {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding-top: 30px;
+    }
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+
+    .texto-principal h2 {
+        font-size: 50px;
+        overflow: hidden;
+    }
+
+    .texto-principal p {
+        font-size: 16px;
+        overflow: hidden;
+    }
+
+    .gallery-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container-bodas .popup-image img  {
+       max-width: 340px;
+       height: auto;        
+    }
+
+    .texto-bodas-1 {
+        font-size: 16px;
+    }
+}         
+
+@media screen and (min-width: 375px) and (max-width: 383px) {
+
+     .texto-principal h2 {
+        font-size: 50px;
+        overflow: hidden;
+    }
+
+    .texto-principal p {
+        font-size: 18px;
+        overflow: hidden;
+    }
+
+
+    .gallery-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container-bodas .popup-image img  {
+       max-width: 355px;
+       height: auto;        
+    }
+
+    .texto-bodas-1 {
+        font-size: 18px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 384px) and (max-width: 390px) {
+
+     .texto-principal h2 {
+        font-size: 60px;
+        overflow: hidden;
+    }
+
+    .texto-principal p {
+        font-size: 20px;
+        overflow: hidden;
+    }
+
+    .gallery-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container-bodas .popup-image img  {
+       max-width: 370px;
+       height: auto;        
+    }
+
+    .texto-bodas-1 {
+        font-size: 20px;
+    }
+}       
+   
+
+ @media screen and (min-width: 391px) and (max-width: 414px) {
+
+    .texto-principal h2 {
+        font-size: 70px;
+        overflow: hidden;
+    }
+
+    .texto-principal p {
+        font-size: 24px;
+        overflow: hidden;
+    }
+
+    .gallery-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container-bodas .popup-image img  {
+       max-width: 394px;
+       height: auto;        
+    }
+
+    .texto-bodas-1 {
+        font-size: 24px;
+    }
+}       
+
+
+@media screen and (min-width: 415px) and (max-width: 428px) {
+
+    .texto-principal h2 {
+        font-size: 70px;
+        overflow: hidden;
+    }
+
+    .texto-principal p {
+        font-size: 26px;
+        overflow: hidden;
+    }
+
+    .gallery-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container-bodas .popup-image img  {
+       max-width: 408px;
+       height: auto;        
+    }
+
+    .texto-bodas-1 {
+        font-size: 26px;
+    }
+
+}
+
+@media screen and (min-width: 660px) and (max-width: 759px) and (orientation: landscape) {
+
+    .texto-principal h2 {
+        font-size: 20px;
+        overflow: hidden;
+    }
+
+    .texto-principal p {
+        font-size: 12px;
+        overflow: hidden;
+    }
+
+     .container-bodas .popup-image img  {
+       max-height: 340px;
+               
+    }
+
+     .texto-bodas-1 {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width: 760px) and (max-width: 799px) and (orientation: landscape) {
+
+    .texto-principal h2 {
+        font-size: 20px;
+        overflow: hidden;
+    }
+
+    .texto-principal p {
+        font-size: 12px;
+        overflow: hidden;
+    }
+
+     .container-bodas .popup-image img  {
+       max-height: 340px;
+               
+    }
+
+     .texto-bodas-1 {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 811px) and (orientation: landscape) {
+
+    .texto-principal h2 {
+        font-size: 24px;
+        overflow: hidden;
+    }
+
+    .texto-principal p {
+        font-size: 12px;
+        overflow: hidden;
+    }
+
+     .container-bodas .popup-image img  {
+       max-height: 355px;
+               
+    }
+
+     .texto-bodas-1 {
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (min-width: 812px) and (max-width: 843px) and (orientation: landscape) {
+
+    .texto-principal h2 {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+    .texto-principal p {
+        font-size: 12px;
+        overflow: hidden;
+    }
+
+     .container-bodas .popup-image img  {
+       max-height: 355px;
+               
+    }
+
+    .texto-bodas-1 {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width: 844px) and (max-width: 882px) and (orientation: landscape) {
+
+    .texto-principal h2 {
+        font-size: 35px;
+        overflow: hidden;
+    }
+
+    .texto-principal p {
+        font-size: 14px;
+        overflow: hidden;
+    }
+
+     .container-bodas .popup-image img  {
+       max-height: 370px;
+               
+    }
+
+    .texto-bodas-1 {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 883px) and (max-width: 915px) and (orientation: landscape) {
+
+    .texto-principal h2 {
+        font-size: 40px;
+        overflow: hidden;
+    }
+
+    .texto-principal p {
+        font-size: 16px;
+        overflow: hidden;
+    }
+
+     .container-bodas .popup-image img  {
+       max-height: 394px;
+               
+    }
+
+     .texto-bodas-1 {
+        font-size: 16px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 916px) and (max-width: 926px) and (orientation: landscape) {
+
+    .texto-principal h2 {
+        font-size: 50px;
+        overflow: hidden;
+    }
+
+    .texto-principal p {
+        font-size: 18px;
+        overflow: hidden;
+    }
+
+     .container-bodas .popup-image img  {
+       max-height: 408px;
+               
+    }
+
+    .texto-bodas-1 {
+        font-size: 18px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
