@@ -312,7 +312,7 @@ body {
 @media screen and (min-width: 660px) and (max-width: 759px) and (orientation: landscape) {
 
     .texto-principal {
-        padding-top: 100px;
+        padding-top: 30px;
     }
 
     .texto-principal h2 {
@@ -339,7 +339,7 @@ body {
 @media screen and (min-width: 760px) and (max-width: 799px) and (orientation: landscape) {
 
     .texto-principal {
-        padding-top: 100px;
+        padding-top: 30px;
     }
 
     .texto-principal h2 {
@@ -366,7 +366,7 @@ body {
 @media screen and (min-width: 800px) and (max-width: 811px) and (orientation: landscape) {
 
     .texto-principal {
-        padding-top: 100px;
+        padding-top: 30px;
     }
 
     .texto-principal h2 {
@@ -394,7 +394,7 @@ body {
 @media screen and (min-width: 812px) and (max-width: 843px) and (orientation: landscape) {
 
      .texto-principal {
-        padding-top: 100px;
+        padding-top: 30px;
     }
 
     .texto-principal h2 {
@@ -421,7 +421,7 @@ body {
 @media screen and (min-width: 844px) and (max-width: 882px) and (orientation: landscape) {
 
      .texto-principal {
-        padding-top: 100px;
+        padding-top: 30px;
     }
 
     .texto-principal h2 {
@@ -448,7 +448,7 @@ body {
 @media screen and (min-width: 883px) and (max-width: 915px) and (orientation: landscape) {
 
     .texto-principal {
-        padding-top: 100px;
+        padding-top: 30px;
     }
 
     .texto-principal h2 {
@@ -477,7 +477,7 @@ body {
 @media screen and (min-width: 916px) and (max-width: 926px) and (orientation: landscape) {
 
     .texto-principal {
-        padding-top: 100px;
+        padding-top: 30px;
     }
 
     .texto-principal h2 {
